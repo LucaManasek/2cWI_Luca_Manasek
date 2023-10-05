@@ -1,0 +1,14 @@
+/* ELEMENT selektor */
+div{
+    background-color: blueviolet;
+}
+
+/* id selektor */
+#header{
+    font-size: 40px;
+}
+
+/* Klassen selektor*/
+.subtitle{
+    color: hotpink;
+}
