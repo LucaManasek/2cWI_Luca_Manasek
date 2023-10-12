@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: solid black 2px;
+    margin: 2px;
+}
+
+.first{
+    box-sizing: content-box;
+    padding: 15px;
+}
+
+.second{
+    padding: 15px;
+}
