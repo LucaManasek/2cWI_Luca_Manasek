@@ -1,14 +1,14 @@
 /* ELEMENT selektor */
-div{
+div {
     background-color: blueviolet;
 }
 
 /* id selektor */
-#header{
+#header {
     font-size: 40px;
 }
 
 /* Klassen selektor*/
-.subtitle{
+.subtitle {
     color: hotpink;
 }

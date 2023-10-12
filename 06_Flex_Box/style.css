@@ -1,11 +1,11 @@
-.box{
+.box {
     background-color: red;
     width: 100px;
     height: 100px;
     margin: 5px;
 }
 
-.container{
+.container {
     border: solid black 3px;
     background-color: green;
     height: 200px;

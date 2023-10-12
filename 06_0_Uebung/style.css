@@ -1,0 +1,47 @@
+body {
+    margin: 0px;
+}
+
+.container1 {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: end;
+}
+
+.box1 {
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    margin: 20px;
+}
+
+.container2 {
+    background-color: green;
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.box2 {
+    padding: 20px;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.box4 {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-div{
+div {
     height: 100px;
     width: 100px;
     background-color: blue;
@@ -10,11 +10,11 @@ div{
     margin: 2px;
 }
 
-.first{
+.first {
     box-sizing: content-box;
     padding: 15px;
 }
 
-.second{
+.second {
     padding: 15px;
 }
