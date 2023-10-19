@@ -1,0 +1,38 @@
+.container1 {
+    height: 400px;
+    width: 200px;
+    background-color: turquoise;
+    margin: 40px;
+    position: relative;
+}
+
+.box1 {
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.box2 {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+.container2 {
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 {
+    height: 20px;
+    width: 40px;
+    background-color: green;
+    margin: 20px;
+}
