@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+.container1{
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    display: flex;
+}
+
+.container2{
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+
+.container3{
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
+
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.container4{
+    height: 100px;
+    width: 400px;
+    background-color: green;
+    position: absolute;
+    top: 300px;
+}
+
+.container5{
+    height: 250px;
+    width: 250px;
+    background-color: blueviolet;
+    bottom: 0px;
+    left: 0px;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+}
