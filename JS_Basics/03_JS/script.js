@@ -15,11 +15,19 @@
 
 let banana = "Banane";
 let apple = "Apple";
-let bananaPricePerKilo = 3.43;
-let applePricePerKilo = 2.14;
+let bananaPricePerKilo = 2.14;
+let applePricePerKilo = 3.43;
 let weightPerApple = 0.34;
 let weightPerBanana = 0.22;
-let pricePerApple = applePricePerKilo / weightPerApple;
-let pricePerBanan = bananaPricePerKilo / weightPerBanana;
-
-console.log("Anzahl Bananen pro Kilo = ");
+let pricePerApple = applePricePerKilo * weightPerApple;
+let pricePerBanana = bananaPricePerKilo * weightPerBanana;
+let bananaPerKilo = 1 / weightPerBanana;
+let applePerKilo = 1 / weightPerApple;
+console.log("Anzahl Bananen pro Kilo = " + bananaPerKilo);
+console.log("Ahzahl Äpfel pro Kilo = " + applePerKilo);
+console.log("Preis pro Banane = " + pricePerBanana);
+console.log("Preis pro Apfel = "+ pricePerApple);
+console.log("Preis von 8 Äpfel = " + pricePerApple * 8);
+console.log("Preis von 17 Bananen = " + pricePerBanana * 18);
+console.log("Preis von 1 Tonne Äpfel = " + applePricePerKilo * 1000);
+console.log("Preis von 1 Tonne Bananen = "+ bananaPricePerKilo * 1000);
