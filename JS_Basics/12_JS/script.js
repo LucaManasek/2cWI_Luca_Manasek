@@ -1,3 +1,4 @@
+import { log } from "console";
 import { createInterface } from "readline";
 
 const readline = createInterface({
@@ -9,12 +10,18 @@ const readLineAsync = () => {
   return new Promise((resolve) => {
     readline.question("", (userRes) => {
       resolve(userRes);
-      readline.close();
     });
   });
 };
 
 console.log("Enter your name");
 
-let inputOfUser = await readLineAsync();
-console.log(inputOfUser);
+let name = await readLineAsync();
+console.log("Your name is " + name);
+
+console.log("Enter your age");
+
+let age = await readLineAsync();
+console.log("You are " + age + " years old!");
+
+readline.close();
