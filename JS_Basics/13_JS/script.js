@@ -27,14 +27,24 @@ let selection = await readLineAsync();
 if (selection == 1) {
     console.log("Geben Sie den Betrag, den Sie einzahlen möchten, ein");
     let Einzahlung = Number(await readLineAsync());
+    if (Einzahlung > 0) {
     Kontostand = Kontostand + Einzahlung;
     console.log("Ihre Einzahlung wurde erfolgreich abgeschlossen");
+    }
+    else {
+      console.log("Ihre Eingabe war ungültig");
+    }
 }
 else if (selection == 2) {
     console.log("Geben Sie den Betrag, den Sie abheben möchten, ein");
-    let Abheben = await readLineAsync();
+    let Abheben = Number(await readLineAsync());
+    if (Abheben > 0) {
     Kontostand = Kontostand - Abheben;
     console.log("Ihre Abhebung wurde erfolgreich abgeschlossen");
+    }
+    else {
+      console.log("Ihre Eingabe war ungültig");
+    }
 }
 else if (selection == 3) {
     console.log("Ihre Kontostand beträgt: " + Kontostand);

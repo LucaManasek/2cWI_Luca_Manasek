@@ -27,7 +27,7 @@ function printEasterDate(J) {
     A = N % 19;
     B = (7*A + 1) / 19;
     M = (11*A + 4 - B) % 29;
-    Q = N/4
+    Q = N/4;
     W = (N*Q*31-M) % 7;
     P = 25-M-W;
     P = Math.round(P)
