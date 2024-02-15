@@ -38,9 +38,12 @@ if (selection == 1) {
 else if (selection == 2) {
     console.log("Geben Sie den Betrag, den Sie abheben möchten, ein");
     let Abheben = Number(await readLineAsync());
-    if (Abheben > 0) {
+    if (Abheben > 0 && Kontostand - Abheben >= 0) {
     Kontostand = Kontostand - Abheben;
     console.log("Ihre Abhebung wurde erfolgreich abgeschlossen");
+    }
+    else if (Kontostand - Abheben < 0) {
+      console.log("Ihre Abhebung wurde abgelehnt, da Ihr Guthaben für die Aktion nicht ausreicht");
     }
     else {
       console.log("Ihre Eingabe war ungültig");
