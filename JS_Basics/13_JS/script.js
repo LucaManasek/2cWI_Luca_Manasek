@@ -54,7 +54,7 @@ else if (selection == 3) {
 }
 
 else if (selection == 4) {
-
+console.log("Bitte entnehmen Sie ihre Bankomatkarte");
 isFinished = true
 }
 
