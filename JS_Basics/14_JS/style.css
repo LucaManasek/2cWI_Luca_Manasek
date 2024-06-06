@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    border-radius: 20%;
+    display: grid;
+    background-color: blue;
+    margin: 10px;
+}
